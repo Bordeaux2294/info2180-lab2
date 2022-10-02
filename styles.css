@@ -1,0 +1,97 @@
+.container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 30px;
+}
+
+p{
+    font-size: 18px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif;
+}
+
+header{
+    background-color: #63B3ED;
+    color: #FFF;
+    grid-column: 1/3;
+    display: flexbox;
+    justify-content: center;
+    padding:3em;
+
+
+}
+.boc{
+    grid-column: 1/3;
+    text-align: center;
+}
+
+.h1{
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header img{
+    border-radius: 50%;
+}
+
+
+
+main{
+    grid-column: 1;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+main h2{
+    font-size: 32px;
+    color: #48BB78;
+}
+
+main article{
+    margin-bottom: 50px;
+}
+
+.kd{
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.dates{
+    color: #718096;
+}
+
+aside{
+    grid-column: 2;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+aside a{
+    color: #4299E1;
+}
+
+.about{
+    font-family:  Georgia,'Times New Roman', Times, serif;
+    background-color: #E2E8F0;
+    padding: 20px;
+}
+
+
+.sma{
+    font-family:  Georgia,'Times New Roman', Times, serif;
+    color: #48BB78;
+}
+
+footer{
+    clear: both;
+    grid-column: 1/3;
+    background-color: #2C5282;
+    color: #FFF;
+    padding: 10px;
+}
+
+
+
